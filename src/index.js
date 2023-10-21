@@ -2,11 +2,12 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
+import { HashRouter } from "react-router-dom";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <StrictMode>
+  <HashRouter>
     <App />
-  </StrictMode>,
-  rootElement
+  </HashRouter>,
+  rootElement,
 );

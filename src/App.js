@@ -6,6 +6,7 @@ import { StatusFilter } from "./components/StatusFilter";
 import { SearchInput } from "./components/SearchInput";
 import rawBillsData from "./data/bills";
 import { useEffect, useState } from "react";
+import { HashRouter } from "react-router-dom";
 
 export default function App() {
   const [page, setPage] = useState(0);
