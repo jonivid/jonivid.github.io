@@ -13,7 +13,7 @@ export default function App() {
   const [filterValue, setFilterValue] = useState("");
   const [data, setData] = useState(rawBillsData);
   const [numOfPages, setNumOfPages] = useState(rawBillsData.length / 10);
-
+//
   useEffect(() => {
     const tempData = [...rawBillsData];
     const dataBySearchValue = filterArrayBySearchValue(tempData, searchValue);
